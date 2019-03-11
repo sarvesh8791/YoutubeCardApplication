@@ -68,7 +68,8 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="6dp"
             android:layout_margin="8dp"
-            app:cardMaxElevation="6dp">
+            app:cardMaxElevation="6dp"
+            android:id="@+id/card2">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,30 +77,30 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/image1"
+                    android:src="@drawable/dhoni1"
                     android:scaleType="centerCrop"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
-                        android:id="@+id/change1"
+                        android:id="@+id/change3"
                         android:layout_width="72dp"
 
                         android:layout_height="72dp"
                         android:src="@drawable/ic_launcher_background"/>
                     <TextView
-                        android:id="@+id/change2"
+                        android:id="@+id/change4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/change1"
-                        android:text="Scenary"
+                        android:layout_toRightOf="@id/change3"
+                        android:text="Cricket"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/change2"
+                        android:layout_below="@id/change4"
                         android:layout_marginLeft="80dp"
-                        android:text="Beautiful.1k views.2 days ago"
+                        android:text="Dhoni.1.5M views.2 days ago"
                         />
                     <ImageView
                         android:layout_width="50dp"
@@ -119,7 +120,8 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="6dp"
             android:layout_margin="8dp"
-            app:cardMaxElevation="6dp">
+            app:cardMaxElevation="6dp"
+            android:id="@+id/card3">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,30 +129,30 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/image1"
+                    android:src="@drawable/kohli"
                     android:scaleType="centerCrop"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
-                        android:id="@+id/change1"
+                        android:id="@+id/change5"
                         android:layout_width="72dp"
 
                         android:layout_height="72dp"
                         android:src="@drawable/ic_launcher_background"/>
                     <TextView
-                        android:id="@+id/change2"
+                        android:id="@+id/change6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/change1"
-                        android:text="Scenary"
+                        android:layout_toRightOf="@id/change5"
+                        android:text="Cricket"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/change2"
+                        android:layout_below="@id/change6"
                         android:layout_marginLeft="80dp"
-                        android:text="Beautiful.1k views.2 days ago"
+                        android:text="Kohli.1M views.2 days ago"
                         />
                     <ImageView
                         android:layout_width="50dp"
